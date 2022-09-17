@@ -26,7 +26,7 @@ def  draw(l): #recursive function taking length 'l' as argument
         draw(3*l/4) #drawing a fractal on the right of the turtle object 'roo' with 3/4th of its length
         roo.left(30) #moving the turtle 30 degrees towards left
         roo.pensize(2)
-        roo.backward(l) #returning the turtle back to its original psition
+        roo.backward(l) #returning the turtle back to its original position
 
 draw (20) # drawing 20 times 
 
